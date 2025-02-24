@@ -6,11 +6,14 @@ PassFort: A Python-based password analyzer by NEBHAN_MOHY for xAI Research. Eval
 - Integrates with the Have I Been Pwned API (using SHA-1 and k-anonymity) for breach detection.
 - Offers color-coded feedback and generates strong password alternatives.
 
-  source venv/bin/activate  # On Linux/macOS
-  venv\Scripts\activate     # On Windows
+source venv/bin/activate  # On Linux/macOS
 
-  pip3 install requests ratelimit colorama
-  pip3 list | grep -E "requests|ratelimit|colorama
-  python3 passfort.py
+venv\Scripts\activate     # On Windows
+
+pip3 install requests ratelimit colorama
+
+pip3 list | grep -E "requests|ratelimit|colorama
+
+python3 passfort.py
 
   ![Screenshot 2025-02-24 091724](https://github.com/user-attachments/assets/77898414-67a6-4a48-9991-2f481be59174)
